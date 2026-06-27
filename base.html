@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando el Total</title>
+
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img src="./assets/imagenes/1.jpg" alt="producto">
+
+        <h2>Notebook Gamer</h2>
+
+        <p class="precio">$400000</p>
+
+        <div class="botones">
+
+            <button onclick="disminuir()">-</button>
+
+            <span class="cantidad">1</span>
+
+            <button onclick="aumentar()">+</button>
+
+        </div>
+
+        <p class="total">
+            Total a pagar: $<span class="valor-total">400000</span>
+        </p>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
